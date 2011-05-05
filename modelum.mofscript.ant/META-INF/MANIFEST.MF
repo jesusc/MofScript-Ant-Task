@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Mofscript Ant Task Plugin
+Bundle-SymbolicName: modelum.mofscript.ant;singleton:=true
+Bundle-Version: 1.0.0
+Bundle-Activator: modelum.mofscript.ant.Activator
+Require-Bundle: org.eclipse.core.runtime,
+ org.eclipse.emf.ecore;bundle-version="2.4.1",
+ org.eclipse.emf.ecore.xmi;bundle-version="2.4.1",
+ org.eclipse.mofscript.model;bundle-version="1.3.2",
+ org.eclipse.mofscript.parser;bundle-version="1.3.2",
+ org.eclipse.mofscript.runtime;bundle-version="1.3.2",
+ org.eclipse.mofscript.traceabilitymodel;bundle-version="1.3.2",
+ org.apache.ant;bundle-version="1.7.0"
+Bundle-ActivationPolicy: lazy
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6

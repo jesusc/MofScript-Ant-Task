@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="modelum.mofscript.ant/lib" default="createAntJar">
+	<target name="createAntJar">
+		<jar destfile="modelumMofscriptAnt.jar" basedir="../bin_ant"/>
+	</target>
+</project>

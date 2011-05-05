@@ -1,0 +1,17 @@
+Ant task to execute MofScript model-to-text transformations.
+Must be installed as an Eclipse plugin.
+
+== Example usage
+
+<project name="sample" default="all">
+        <property name="umlModel" value="models/myUmlModel.xmi" />
+
+        <target name="gencode">
+                <mofscript template="uml2java.m2t"
+                                   templatesDir="m2c/"
+                                   outputdir="../myproject.gen/src">
+                        <model metamodel="metamodels/UML2.ecore"
+                               model="${umlModel}" />
+                </mofscript>
+        </target>
+</project>

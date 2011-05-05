@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.2"?>
+<plugin>
+   <extension
+         point="org.eclipse.ant.core.antTasks">
+      <antTask
+            class="modelum.mofscript.ant.MOFScriptTask"
+            eclipseRuntime="true"
+            library="lib/modelumMofscriptAnt.jar"
+            name="mofscript">
+      </antTask>
+   </extension>
+   <extension
+         point="org.eclipse.ant.core.extraClasspathEntries">
+      <extraClasspathEntry
+            library="lib/modelumMofscriptAnt.jar">
+      </extraClasspathEntry>
+   </extension>
+
+</plugin>
